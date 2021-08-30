@@ -1,0 +1,46 @@
+html,body {
+	background:transparent;
+}
+.feed {
+	position:absolute;
+	top: 53%;
+	left: 1%;
+}
+.feed div span.weapons>img {
+	vertical-align:middle;
+	margin:0px 3px;
+}
+.feed div > span.victim {
+	font-family: 'Staatliches', cursive;	
+	font-size:14px;
+	margin:0 2px;
+}
+.feed div > span.killer {
+	font-family: 'Staatliches', cursive;	
+	font-size:14px;
+	margin:0 2px;
+}
+.feed>div {
+	padding: 4px 8px 4px 8px;
+	margin:0;
+	display:inline-block;
+	border: 3px #000000a6 solid;
+	line-height: 17px;
+	font-size: 15px;
+	font-weight:normal;
+	border-radius: 6px;
+	background: rgb(99 34 34 / 25%);
+	margin-bottom:6px;
+	float:left;
+	clear:both;
+	text-decoration:none;
+	text-align:right;
+}
+.feed div>span.killer {
+	color: #49c067;
+	padding-left:2px;
+}
+.feed div>span.victim {
+	color: #e0cc32;
+	padding-right:4px;
+}
